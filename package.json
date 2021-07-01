@@ -1,0 +1,32 @@
+{
+  "name": "@hyrule/ts-library-starter",
+  "version": "0.0.1",
+  "description": "a library template with rollup and typescript",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "copy": "cp package.json README.md dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aishen1874/ts-library-starter.git"
+  },
+  "keywords": [
+    "library template",
+    "rollup",
+    "typescript"
+  ],
+  "author": "wayne1874",
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^2.52.6",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  }
+}
